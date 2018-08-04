@@ -1,0 +1,223 @@
+<!doctype html>
+
+<html>
+
+<head>
+  <!-- Page information -->
+  <title>Mariel Capulli, Web Developer</title>
+  <meta name="description" content="The portfolio and resume of web developer Mariel Capulli" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <!-- CSS Reference -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+
+<body>
+
+  <main id="main">
+
+    <!-- HEADER -->
+    <header class="flex">
+      <h1 class="screen-reader-only">Portfolio of Mariel Capulli, Web Developer</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a id="logo" href="#main">Mariel Capulli</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+
+      <!-- Filter radio buttons for portfolio -->
+      <ul id="portfolio-filters">
+        <li>
+          <input class="portfolio-filter" id="filter0" name="filter" type="radio" checked />
+          <label for="filter0">All</label>
+        </li>
+
+        <li>
+          <input class="portfolio-filter" id="filter1" name="filter" type="radio" />
+          <label for="filter1">Front-End Projects</label>
+        </li>
+
+        <li>
+          <input class="portfolio-filter" id="filter2" name="filter" type="radio" />
+          <label for="filter2">Back-End Projects</label>
+        </li>
+
+
+        <!-- List of projects in portfolio -->
+        <ul class="clearfix">
+          <li class="project active" data-category="1">
+            <a href="#" class="modal-link" data-modal="modal-1">
+              <img src="http://i64.tinypic.com/4gi805.jpg" />
+              <h3>Bloc Jams</h3>
+            </a>
+          </li>
+          <li class="project active" data-category="1">
+            <a href="#" class="modal-link" data-modal="modal-2">
+              <img src="http://i65.tinypic.com/f42tj.png" />
+              <h3>PA Giving Day Landing Page</h3>
+            </a>
+          </li>
+          <li class="project active" data-category="1">
+            <a href="#" class="modal-link" data-modal="modal-3">
+              <img src="http://i68.tinypic.com/i6d1r6.jpg" />
+              <h3>Bloc Chat</h3>
+            </a>
+          </li>
+          <li class="project active" data-category="2">
+            <a href="#" class="modal-link" data-modal="modal-4">
+              <img src="http://i68.tinypic.com/23to0mu.png" />
+              <h3>Bloccit</h3>
+            </a>
+          </li>
+          <li class="project active" data-category="2">
+            <a href="#" class="modal-link" data-modal="modal-5">
+              <img src="http://i64.tinypic.com/2whmqf6.png" />
+              <h3>Blocipedia</h3>
+            </a>
+          </li>
+        </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul class="list-skills">
+        <li class="list-item">JavaScript</li>
+        <li class="list-item">HTML</li>
+        <li class="list-item">CSS</li>
+        <li class="list-item">Bootstrap</li>
+        <li class="list-item">Firebase</li>
+        <li class="list-item">jQuery</li>
+        <li class="list-item">ReactJS</li>
+        <li class="list-item">Node.js</li>
+        <li class="list-item">SQL</li>
+        <li class="list-item">PostgreSQL</li>
+        <li class="list-item">Express</li>
+        <li class="list-item">Test Driven Development</li>
+        <li class="list-item">Git</li>
+        <li class="list-item">Git Bash</li>
+      </ul>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About Mariel</h2>
+      <h4 class="about-header">Web Developer</h4>
+        <p class="about-description">After onboarding a new system at work, I wanted to learn more about what was going on behind the scenes. I started to teach myself to code and quickly realized it was something I wanted to do full time. I love problem-solving and building things from scratch, and web development is the perfect combination of both.</p></br>
+        <p class="about-description">I'm currently enrolled in Bloc, an online apprenticeship to become a full stack developer. It's been an exciting and challenging journey and I'm learning so much every day.</p>
+      <h4 class="about-header">Professional Experience</h4>
+        <p class="about-description">I have 6 years of professional experience, primarily in wealth management and client services. Working with clients
+        has given me excellent communication skills, which enables me to work well independently or in a group.</p>
+      <h4 class="about-header">Runner</h4>
+        <p class="about-description">I love running. I've ran 3 half-marathons and am planning to run a full marathon in the coming year. I hope to run the Boston Marathon one day!</p>
+      <h4 class="about-header">Bernese Mountain Dog Enthusiast</h4>
+        <img class="berner-pic" src="http://i68.tinypic.com/30kxds1.jpg"/>
+        <img class="berner-pic" src="http://i65.tinypic.com/2vmh53p.jpg"/>
+        <img class="berner-pic" src="http://i64.tinypic.com/2ef1dzc.jpg"/>
+        <p class="about-description">This is Wrigley, my best friend! She's a 2-year-old Bernese Mountain Dog, weighing in at 85 lbs. Berners are incredibly sweet and loyal and we can't imagine our lives without her.</p>
+    </section>
+
+
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:mariel.capulli@gmail.com">Email</a> &nbsp;&nbsp;||&nbsp;&nbsp;
+        <a href="http://linkedin.com/in/mariel-capulli" target="_blank">LinkedIn</a>&nbsp;&nbsp; || &nbsp;&nbsp;
+        <a href="http://github.com/mariel33" target="_blank">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+
+  <!-- PORTFOLIO MODALS -->
+  <div id="modal-1" class="modal-content">
+    <div class="modal-content__wrapper">
+      <h4 class="modal-content__title">Bloc Jams</h4>
+      <div class="modal-content__description">
+        <p>Bloc Jams is a single-page, streaming music application. It was created using React, HTML, CSS and JavaScript. Bloc
+          Jams allows users to pick an artist and listen to songs on their album.</p>
+        <button class="modal-content__close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-2" class="modal-content">
+    <div class="modal-content__wrapper">
+      <h4 class="modal-content__title">PA Giving Day Landing Page</h4>
+      <div class="modal-content__description">
+        <p>This page was created as a landing page while waiting for a campaign to launch. Because of time restrictions I used
+          a Bootstrap framework and used JavaScript to create a countdown clock to generate excitement.</p>
+        <button class="modal-content__close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-3" class="modal-content">
+    <div class="modal-content__wrapper">
+      <h4 class="modal-content__title">Bloc Chat</h4>
+      <div class="modal-content__description">
+        <p>Bloc Chat was created using React, Firebase, HTML, CSS and JavaScript. Users are able to sign in using their Gmail
+          account, create new chat rooms and send messages in different chat rooms.</p>
+        <button class="modal-content__close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-4" class="modal-content">
+    <div class="modal-content__wrapper">
+      <h4 class="modal-content__title">Bloccit</h4>
+      <div class="modal-content__description">
+        <p>Bloccit is a Reddit-like application created using Node.js. This app has many features such as authentication, authorization,
+          creating topics, posting and commenting. Bloccit also incorporated Test Driven Development, PostgreSQL and Express,
+          among others. </p>
+        <button class="modal-content__close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-5" class="modal-content">
+    <div class="modal-content__wrapper">
+      <h4 class="modal-content__title">Blocipedia</h4>
+      <div class="modal-content__description">
+        <p>Blocipedia is an application that allows users to create, collaborate and share wikis. It was created using Node.js,
+          PostgreSQL and Express. I integrated Stripe to charge users for premium accounts, and implemented email sending
+          and user authentication using external APIs (SendGrid and Passport.js).</p>
+        <button class="modal-content__close">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL OVERLAY -->
+  <div id="modal-overlay"></div>
+
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+
+</html>
